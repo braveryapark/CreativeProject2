@@ -1,0 +1,43 @@
+.three {
+    text-align: center;
+    height: auto;
+    width: 33%;
+}
+@media only screen and (max-width: 768px) {
+    .three {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+}
+.total {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+    color: transparent;
+}
+#colorResults {
+    font-family: chalkduster;
+}
+footer {
+    text-align: center;
+}
+#colorblock1 {
+    width: 30%;
+    height: 30%;
+    padding: 10%;
+}
+#colorblock2 {
+    width: 30%;
+    height: 30%;
+    padding: 10%;
+}
+
